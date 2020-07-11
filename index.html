@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar_icon">
+                <img src="Project Icons/purchase icon.png" alt="">
+            </div>  
+            <div class="sidebar_content">
+                <div class="sidebar_profile">
+                    <div class="profile">
+                        <img src="Project Icons/COVID_Nurse.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3 class="fl">Uchicha Madara</h3>
+                        <h3 class="info_active fl"></h3>
+                        <p>ID: 0013778</p>
+                    </div>
+                </div>      
+                <select name="" id="">
+                    <option value="">Diapers</option>
+                    <option value="">Diapers</option>
+                    <option value="">Diapers</option>
+                    <option value="">Diapers</option>
+                    <option value="">Diapers</option>
+                </select>
+                <input type="" placeholder="Input product" id="input"> 
+                <input type="submit" value="Analyse" id="analyse"  onclick="setTimeout(myFunc, 3000)">
+                <div class="sidebar_container">
+                    <span>Recent Products</span>
+                   <div class="recent_products">
+                    <a href="#"><p class="product_one"><img src="Project Icons/purchase flat.png" alt=""> Plaster from Paris</p></a>
+                   <a href="#"> <p class="product_two"><img src="Project Icons/purchase flat.png" alt=""> Measuring Tape</p></a>
+                   </div>
+                </div>    
+            </div>
+        </div>
+        <div class="graph ">
+            <h3>Analysis</h3>
+            <div class="graph_analysis">
+                    <canvas id="myChart" height="100px"></canvas>
+            </div>
+        </div>
+        <div class="noProduct_page">
+            <img src="Project Icons/Purchase Icon.png" alt="">
+            <h3>No Product Yet</h3>
+        </div>
+        <div class="recommendation ">
+            <h3>You might also like</h3>
+          <div class="recommend">
+            <div class="recommendation_slide">
+                <div class="recommendations_icon">
+                    <div class="icon icon_1">
+                        <a href=""><img src="Project Icons/purchase flat.png" alt="">
+                            <p>Baby oil</p>
+                        </a>
+                    </div>
+                    <div class="icon icon_2">
+                        <a href=""><img src="Project Icons/purchase flat.png" alt="">
+                            <p>Diaper stickers</p>
+                        </a>
+                    </div>
+                    <div class="icon icon_3">
+                        <a href=""><img src="Project Icons/purchase flat.png" alt="">
+                            <p>Wipe warmers</p>
+                        </a>
+                    </div>
+                    <div class="icon icon_4">
+                        <a href=""><img src="Project Icons/purchase flat.png" alt="">
+                            <p>Humidifier</p>
+                        </a>
+                    </div>
+                    <div class="icon icon_5">
+                        <a href=""><img src="Project Icons/purchase flat.png" alt="">
+                            <p>Breast pump</p>
+                        </a>
+                    </div>
+                    <div class="icon icon_6">
+                        <a href=""><img src="Project Icons/purchase flat.png" alt="">
+                            <p>Baby cup</p>
+                        </a>
+                    </div>
+                    <div class="icon icon_7">
+                        <a href=""><img src="Project Icons/purchase flat.png" alt="">
+                            <p>Charlie</p>
+                        </a>
+                    </div>
+                    <div class="icon icon_8">
+                        <a href=" "><img src="Project Icons/purchase flat.png" alt="">
+                            <p>Klen crm</p>
+                        </a>
+                    </div>
+                   
+                </div>   
+            </div>
+          </div>
+        </div>
+       
+    </div>
+    <div class="loader" id="loader">
+
+    </div>
+    <footer>
+        <p>Recommendation System   2020</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

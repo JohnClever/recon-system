@@ -1,0 +1,5 @@
+onclick="setTimeout(myBlogFunc, 1000)" class="blogToggle"
+onclick="setTimeout(myEventFunc, 1000)" class="eventToggle"
+
+onclick="setTimeout(blogFunc, 500)"
+onclick="setTimeout(eventFunc, 500)"
